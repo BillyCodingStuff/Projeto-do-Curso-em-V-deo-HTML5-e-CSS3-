@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Negrito e Itálico</title>
+</head>
+<body>
+    
+    <h1>Principais formatações</h1>
+    <h2>Negrito</h2>
+    <p>Existem duas formas de de colocar-se negrito:
+    <br><br>
+    Usando &lt;b&gt; como nessa <b>palavra</b>.
+    <br><br>
+    Ou utilizando &lt;strong&gt; como nessa <strong>palavra</strong>. 
+    <br><br>
+    "Mas qual a diferença?". Utilizando &lt;b&gt;, você apenas alterou a forma, sem modificar o significado, a semântica. Já com &lt;strong&gt;, os termos nele estão em destaque semanticamente.
+    </p>
+    
+    <h2>Itálico</h2>
+    <p>Além do negrito, também temos o itálico, seguindo a mesma divisão de ter ou não valor semântico:
+    <br><br>
+    Sem valor, usando &lt;i&gt;:<br>
+    <i>Fancy</i>
+    <br><br>
+    Com valor, usando &lt;EM&gt;: <br>
+    <EM>Fancy</EM>, but <i>&#x2728;spicy&#x2728;</i></p>
+
+    <h2>Texto marcado</h2>
+    <p>Outro tipo de texto possível, é o texto <mark>marcado</mark>, utilizando a tag &lt;mark&gt;.
+    <br><br>
+    "Nossa, mas só tem essa cor? Não combina nada com as cores do meu site."
+    <br>
+    Bom, com HTML não tem como ser outra. Mas utilizando CSS, o céu é o limite ^^ 
+    <br><br>
+    Com o parâmetro <i>style</i>, é possível mudar a cor com o <i>background-color</i>!
+    <br><br>
+    <mark style="background-color: rgb(112, 215, 255);">Olha que lindo que fica azul S2</mark>
+    <br><br>
+    Pra não precisar mudar todos os <i>mark</i> um por um, você pode fazer isso com o <i>style</i> no <i>head</i>.
+    </p>
+   
+    <h2>Texto grande e pequeno</h2>
+    <p>Outra coisa possível é <small>diminuir</small> o tamanho das letras com &lt;small&gt;. Também <b>era</b> possível aumentar utilizando &lt;big&gt;, mas essa tag é obsoleta. Se quiser configurar o tamanho das letras com mais precisão, é inevitável o uso de CSS.
+    </p>
+    <h2>Texto deletado e inserido</h2>
+    <p>Pra sinalizar a exclusão ou inserimento de um novo texto. São usada as tags &lt;del&gt; e &lt;ins&gt;.
+    <br><br>
+    <del>Esse aqui foi de arrasta pra cima</del>
+    <br><br>
+    <ins>Esse acabou de chegar</ins>
+    <br><br>
+    Para utilizar esses textos sem semântica, é necessário configurar através do CSS, com <i>text-decoration</i>.
+    </p>
+    <h2>Texto sobrescrito e subscrito</h2>
+    <p>
+    Sabe aqueles números pequenos que ficam em cima ou embaixo, como em elementos químicos na tabela periódica? Tem como colocá-los! Com as tags &lt;sub&gt; e &lt;sup&gt;, o texto fica assim:
+    <br><br>
+    H<sub>2</sub>O e x<sup>2</sup>
+    </p>
+    <h2>Trechos de código</h2>
+    <p>
+    Como programadores, acabamos querendo compartilhar nossos códigos, seja na linguagem que for. Por isso, a tag &lt;code&gt; foi criada, informando ao navegador que é um <code>código de computador</code>. Além do efeito para o navegador, há um efeito visual para o usuário, com as letras mono-espaçadas, o que facilita a leitura.
+    Pra exemplificar melhor, vou usar um pouco do código usado nessa página.
+    <br><br>
+    <code>
+        document.getElementById('demo').innerHTML = 'Hello JavaScript';
+    </code>
+
+    <h2>Citações</h2>
+    <p>Sabe quando você escreve um texto e usa uma frase de outra pessoa, uma citação, para explicar o seu argumento? Em HTML, esse tipo de texto é feito a partir da tag &lt;q&gt;.
+    <br><br>
+    <q>Só sei que nada sei</q> - Alguém que definitavemente não foi Sócrates.
+    <br><br>
+    Com citações mais longas, é usado &lt;blockquote&gt;, que cria um parágrafo para si. E se quiser colocar um link para o texto é só usar o parâmetro <i>cite</i> dentro da tag.
+    </p>
+
+    <h2>Abreviações</h2>
+    <p>
+        Já no casos das abrevições, como HTML (Hyper Text Markup Language), há momentos em que você quer deixar claro tanto para o usuário quanto para o mecanismo de busca, o significado da mesma. Com o &lt;abbr&gt;, além de dar esse valor, também mostra a significado dela ao passar o mouse por cima.
+    </p>
+
+    <h2>Texto oditrevni</h2>
+    Pra ter um texto como esse, é só usar a tag &lt;bdo&gt; (bi-directional override). Pra definir a direção, coloque o parâmetro <i>dir</i> e as variações possiveis &lt;rtl&gt; (direita pra esquerda) e <i>ltr</i> (esquerda pra direita) dentro da tag.
+</body>
+</html>
