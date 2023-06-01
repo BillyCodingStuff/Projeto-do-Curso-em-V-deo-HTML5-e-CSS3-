@@ -7,6 +7,59 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Trechos de código</h2>
+    <p>
+    Como programadores, acabamos querendo compartilhar nossos códigos, seja na linguagem que for. Por isso, a tag &lt;code&gt; foi criada, informando ao navegador que é um <code>código de computador</code>. Além do efeito para o navegador, há um efeito visual para o usuário, com as letras mono-espaçadas, o que facilita a leitura.
+    <br><br>
+    <code>
+        for nota in notas:
+    soma_das_notas += nota
+
+print(soma_das_notas)
+    </code>
+    <br><br>
+    Provavelmente você percebeu que esse código não tá tão "código" assim. Pra manter a formatação do código, é so usar a &lt;code&gt; dentro da tag &lt;pre&gt;, que  representa texto pré-formatado.
+    <br>
+    <pre>
+        <code>
+            for nota in notas:
+            soma_das_notas += nota
+        
+        print(soma_das_notas)
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <p>Sabe quando você escreve um texto e usa uma frase de outra pessoa, uma citação, para explicar o seu argumento? Em HTML, esse tipo de texto é feito a partir da tag &lt;q&gt;.
+    <br><br>
+    <q>Só sei que nada sei</q> - Alguém que definitavemente não foi Sócrates.
+    <br><br>
+    Com citações mais longas, é usado &lt;blockquote&gt;, que cria um parágrafo para si. 
+    <br><br>
+    <blockquote>
+        Quando o Sr. Bilbo Bolseiro de Bolsão anunciou que em breve celebraria seu
+        onzentésimo primeiro aniversário com uma festa de especial grandeza,
+        houve muito comentário e agitação na Vila dos Hobbits.
+    </blockquote>
+    <br> <br>
+    E se quiser colocar um link para o texto é só usar o parâmetro <i>cite</i> dentro da tag.
+    <br><br>
+    <blockquote cite="https://estdaliteratura.files.wordpress.com/2017/05/li-2-o-senhor-dos-aneis-j-r-r-tolkien.pdf">
+        Bilbo era muito rico e muito peculiar, e tinha sido a atração do Condado por sessenta anos, desde seu notável desaparecimento e inesperado retorno. As riquezas trazidas de suas viagens tinham agora se transformado numa lenda local, e popularmente se acreditava que a Colina em Bolsão estava cheia de túneis recheados com tesouros.
+    </blockquote>
+
+    </p>
+
+    <h2>Abreviações</h2>
+    <p>
+        Já no casos das abrevições, como HTML (Hyper Text Markup Language), há momentos em que você quer deixar claro tanto para o usuário quanto para o mecanismo de busca, o significado da mesma. Com o &lt;abbr&gt;, além de dar esse valor, também mostra a significado dela ao passar o mouse por cima.
+        <br><br>
+        <abbr title="Hyper Text Markup Language">HTML</abbr>
+    </p>
+
+    <h2>Texto oditrevni</h2>
+    Pra ter um texto como esse, é só usar a tag &lt;bdo&gt; (bi-directional override). Pra definir a direção, coloque o parâmetro <i>dir</i> e as variações possiveis &lt;rtl&gt; (direita pra esquerda) e <i>ltr</i> (esquerda pra direita) dentro da tag.
+    <br><br>
+    <bdo dir="rtl">Gostou?</bdo>
 </body>
 </html>
