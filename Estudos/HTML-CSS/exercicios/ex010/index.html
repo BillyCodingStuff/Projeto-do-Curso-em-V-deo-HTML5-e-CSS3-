@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icone/iv.ico" type="image/x-icon">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>
+        Você pode acessar o meu perfil no LinkedIn por <a href="https://www.linkedin.com/in/billycodes/" target="_blank rel="external"> 
+        aqui</a>.
+    </p>
+    <!--
+    target = _blank (janela em branco)
+    _self (abre o link na janela atual)
+
+    rel = next (indica que é a próxima parte)
+    prev (Parte anterior do documento atual)
+    author (site do autor do artigo atual)
+    external (fora do site/não faz parte)
+    nofollow (não dá um aval pro link, como um link pago)
+    -->
+    
+    <p>
+        Aqui vai um presentinho <a href="segundaPagina.html" rel="next">S2</a> <br> E uma <a href="pagina3/terceiraPagina.html">pergunta</a>.
+    </p>
+    <h1>Links para downloads</h1>
+    <ul>
+        <li><a href="livro/Alice.pdf" download="Alice.pdf" type="application/pdf" download>Link pro livro de onde tirei a pergunta</li></a>
+        <li><a href="livro/Alice.zip" download="Alice.zip" type="application/zip">Mesmo arquivo, mas em ZIP</a></li>
+    </ul>
+</body>
+</html>
