@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+        @font-face {
+            font-family: "VCR OSD Mono";
+            src: url(fontes/VCR_OSD_MONO_1.001.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family:'VCR OSD Mono', Courier, monospace
+        }
+        h1{
+            font-size: 3em;
+        }
+        /*
+        Tipos de formato de arquivo de fonte
+        - opentype(otf)
+        - truetype (ttf)
+        - embebed-opentype
+        - true type aat (Apple Advance Type)
+        - svg
+        Usar mais de um tipo, caso um não funciona. A maioria aceita otf e ttf.
+        */
+    </style>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sit quasi tenetur, fuga maxime repellendus tempore quis? Ea asperiores magnam animi quae accusantium. Sit at officia, aut sapiente adipisci tempora?</p>
+</body>
+</html>
