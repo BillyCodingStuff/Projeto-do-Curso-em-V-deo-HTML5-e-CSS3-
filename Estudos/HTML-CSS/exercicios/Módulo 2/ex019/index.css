@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: #AAE0F5;
+}
+
+h1{
+    color: #5A5CF2;
+}
+
+#principal{
+    color: rgb(25, 23, 112);
+    text-align: center;
+}
+p{
+    color: #ffffff;
+    background-color: #5C8BDB;
+    border-radius: 20px;
+    padding:10px;
+    width: fit-content;
+    text-align: justify;
+}
+.citacao{
+    color: #ffffff;
+    background-color:#723cee;
+    border-radius: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+.basico{
+    color:#5C8BDB;
+}
+
+.intermediario{
+    color:#9463EB;
+}
+.avancado{
+    color:#723cee;
+}
