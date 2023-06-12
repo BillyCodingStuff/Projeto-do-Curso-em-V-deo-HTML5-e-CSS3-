@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "BebasNeue";
+    src: url(fontes/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: "BebasNeue";
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Idroid";
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #85E1B5;
+}
+header{
+    background-image: linear-gradient(to top,#1B5C3C, #3FDB90);
+    color: white;
+    width: 100%;
+    border-width: 0%;
+}
+#principal{
+    font-family: "BebasNeue", serif;
+    text-align: center;
+    margin: 0px;
+    width: 40%;
+    margin: auto;
+    padding: 30px 10px 10px 10px;
+    font-weight: normal;
+    text-shadow: 1px 1px #333;
+    font-size: 3em;
+}
+
+#principalp{
+    font-size: 17px;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 1px 1px #1B5C3C;
+}
+nav{
+    padding: 10px 10px 10px 8px;
+
+}
+nav > a{
+    padding: 10px 10px 10px 8px;
+    font-weight: bold;
+    margin: 0%;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 10px;
+    
+}
+nav > a:hover{
+    display: ;
+    color:#1B5C3C;
+    background-color: #3FDB90;
+
+}
+nav > a:visited{
+    padding: 10px 10px 10px 8px;
+    font-weight: bold;
+    margin: 0%;
+    color: white;
+    text-decoration: none;
+}
+img{
+    margin: auto;
+    padding-left: 10%;
+}
+li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+section{
+    padding:20px;
+    background-color: white;
+    border-width: 0vw 14vw 0vw 14vw;
+    border-style: solid;
+    border-color: #85E1B5;;
+    margin:0%;
+    
+}
+section > h1{
+    font-family: "Idroid";
+    color: #1B5C3C;
+    font-size: 2em;
+    margin: 0%;    
+}
+
+section > h2{
+    font-family: "Idroid";
+    color: #1B5C3C;
+    background-image: linear-gradient(to right, #3FDB90, white);
+    text-indent: 10px;
+}
+section > p{
+    font-size: 18px;
+    padding: 5px;
+    text-indent: 25px;
+    text-align: justify;
+}
+
+footer{
+    background-color: #1B5C3C;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+footer > a{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+footer > a:visited{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}

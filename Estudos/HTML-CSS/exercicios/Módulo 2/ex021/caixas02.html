@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: gray;
+            margin:0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px #00000056;
+        }
+        section > p{
+            color: grey;
+        }
+        #noticias{
+            background-color: lightgray;
+            padding: 10px 0px;
+        }
+        nav{
+            background-color: rgb(136, 134, 134);
+            padding: 3px;
+            margin-right: 5px;
+            box-shadow: 2px 2px 2px #00000056;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article{
+            padding:5px
+        }
+        article > aside{
+            background-color: rgb(163, 163, 163);
+            width: fit-content;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin:0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Artes</a>
+            <a href="#">Códigos</a>
+            <a href="#">Músicas</a>
+            <a href="#">Textos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Códigos</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>O que aprendi com essa aula</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste fugit amet cum. Ratione iusto sapiente facilis libero aut omnis, pariatur tenetur, facere sint laboriosam repellendus sequi molestiae autem unde recusandae!</p>
+                <aside>
+                    <p>Artigo escrito por Isabelly Nascimento</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+
+</body>
+</html>
