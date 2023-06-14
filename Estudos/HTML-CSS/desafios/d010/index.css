@@ -14,8 +14,14 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     margin: 0px;
-    background-color: #85E1B5;
+    background-color: #859de1;
+}
+p{
+    font-size: 16px;
+    padding: 10px;
+    text-indent: 30px;
 }
 header{
     background-image: linear-gradient(to top,#1B5C3C, #3FDB90);
@@ -58,10 +64,8 @@ nav > a{
     
 }
 nav > a:hover{
-    display: ;
     color:#1B5C3C;
     background-color: #3FDB90;
-
 }
 nav > a:visited{
     padding: 10px 10px 10px 8px;
@@ -70,28 +74,46 @@ nav > a:visited{
     color: white;
     text-decoration: none;
 }
-img{
+picture{
     margin: auto;
     padding-left: 10%;
 }
 li{
-    display: inline-block;
     margin: 0 0 0 15px;
 }
-section{
+#top{
     padding:20px;
     background-color: white;
     border-width: 0vw 14vw 0vw 14vw;
     border-style: solid;
     border-color: #85E1B5;;
-    margin:0%;
-    
+    margin:0px;
+    width: fit-content;
+}
+#bottom{
+    padding:20px;
+    background-color: white;
+    border-width: 0vw 14vw 0vw 14vw;
+    border-style: solid;
+    border-color: #85E1B5;
+    margin:0px;
+    width:fit-content;
+}
+span{
+    font-weight: bold;
+    color: #1B5C3C;
+}
+#video{
+    border: 20px solid #1B5C3C;
+    box-shadow: none;
+    display: inline-block;
+    width: 0%;
+    overflow: hidden;
 }
 section > h1{
     font-family: "Idroid";
     color: #1B5C3C;
     font-size: 2em;
-    margin: 0%;    
 }
 
 section > h2{
@@ -100,18 +122,92 @@ section > h2{
     background-image: linear-gradient(to right, #3FDB90, white);
     text-indent: 10px;
 }
-section > p{
-    font-size: 18px;
-    padding: 5px;
-    text-indent: 25px;
-    text-align: justify;
+main{
+    width: fit-content;
 }
+main > section > p > a{
+    background-color: #85E1B5;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B5C3C;
+    content:'[a]';
+}
+main > section > div > p > a{
+    background-color: #85E1B5;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B5C3C;
+    content:'[a]';
+}
+main > section > p > a::after{
+    background-color: #85E1B5;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B5C3C;
+    content:'🔗';
+}
+main > section > div> p > a::after{
+    background-color: #85E1B5;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B5C3C;
+    content:'🔗';
+}
+a:visited{
+    background-color: #3FDB90;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+main > section > div{
+    background-color: #85E1B5;
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    border: 0px 0px 15px 0px solid;
+    box-shadow:  5px 6px 6px #0000004d;
+}
+main > section > div > h2{
+    background-color: #1B5C3C;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 15px;
+    padding-right: 0px;
+    width: auto;
+    margin:auto;
+    border-radius: 20px 20px 0px 0px;
+}
+main > section > div > #lista1{
+    display: inline-block;
+    margin-right:20% ;
+}
+main > section > div > #lista2{
+    display: inline-block;
+}
+main > section > div > div > ul{
+    border-right-width:0px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+ main > section > div > div > ul > li{
+    width: fit-content;
+    margin: 0px;
+
+}
+ main > section > div > div > ul > li::before{
+    content: "✔";
+    padding: 10px;
+}
+
 
 footer{
     background-color: #1B5C3C;
     color: white;
     width: 100%;
     text-align: center;
+    padding:10px;
 }
 footer > a{
     color: white;
