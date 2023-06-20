@@ -28,41 +28,32 @@
 }
 body{
     font-family: var(--fonte-padrao);
-    font-size: 16px;
     background-color: #c5ebd6;
 }
 article{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     
-}
-p{
-    font-size: 16px;
-    padding: 10px;
-    text-indent: 30px;
 }
 header{
     background-image: linear-gradient(to top, #063d1e, #2fa866);
-    color: white;
+    margin: auto;
     width: 100%;
-    background-color: white;
-    margin:0px;
-    width: 100%
+    color: white;
 }
 #principal{
     font-family: var(--fonte-destaque);
     text-align: center;
-    
     width: 40%;
     margin: auto;
     padding: 30px 10px 10px 10px;
     font-weight: normal;
     text-shadow: 1px 1px #333;
     font-size: 3em;
+
 }
 
 #principalp{
-    font-size: 17px;
+    font-size: 1.1em;
     text-align: center;
     width: 35%;
     margin: auto;
@@ -71,7 +62,7 @@ header{
 }
 nav{
     padding: 10px 10px 10px 8px;
-
+    box-shadow: 0px 7px 10px #0000004d
 }
 nav > a{
     padding: 10px 10px 10px 8px;
@@ -83,23 +74,16 @@ nav > a{
     border-radius: 10px;
 }
 nav > a:hover{
-    color:#1B5C3C;
+    color: var(--cor5);
     background-color: #3FDB90;
-}
-nav > a:visited{
-    padding: 10px 10px 10px 8px;
-    font-weight: bold;
-    margin: 0%;
-    color: white;
-    text-decoration: none;
+
 }
 picture{
     margin: auto;
     width: 100%;
 }
 .bugdroid{
-    padding-left: 20%;
-    padding: 10%;
+    padding-left: 30%;
 }
 li{
     margin: 0 0 0 15px;
@@ -113,20 +97,29 @@ li{
 strong{
     color: #1B5C3C;
 }
-#video{
-    border: 20px solid #1B5C3C;
-    box-shadow: none;
-    display: inline-block;
-    width: 0%;
-    overflow: hidden;
+div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 0px -20px;
+    padding: 20px;
+    padding-bottom:43%;
+    position: relative;
 }
-section > h1{
+div.video > iframe{
+    top: 5%;
+    left: 4%;
+    width: 92%;
+    height: 92%;
+    position: absolute;
+    border-radius: 20px;
+}
+section h1{
     font-family: var(--fonte-android);
     color: #1B5C3C;
     font-size: 2em;
+    width: fit-content;
 }
 
-section > h2{
+section h2{
     font-family: var(--fonte-android);
     color: #1B5C3C;
     background-image: linear-gradient(to right, #3FDB90, white);
@@ -136,9 +129,16 @@ main{
     margin: auto;
     max-width: 800px;
     min-width: 320px;
-
+    box-shadow: 0px 0px 10px #0000004d;
 }
-main > article > section > p > a{
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main a{
     background-color: #85E1B5;
     font-weight: bold;
     text-decoration: none;
@@ -146,72 +146,45 @@ main > article > section > p > a{
     content:'[a]';
     cursor: pointer;
 }
-main > article > section > aside > p > a{
-    background-color: #85E1B5;
-    font-weight: bold;
-    text-decoration: none;
-    color: #1B5C3C;
-    content:'[a]';
-    cursor: pointer;
-}
-main > article > section > p > a:hover{
-    background-color: #85E1B5;
-    font-weight: bold;
+main a:hover{
     text-decoration: underline;
-    color: #1B5C3C;
-    content:'🔗';
-    cursor: pointer;
 }
-main > article > section p > a::after{
+main a::after{
     content:'🔗';
 }
 
 main > article > section > aside{
     background-color: #85E1B5;
     border-radius: 20px;
-    width: 100%;
-    height: 500px;
+    padding: 10px;
     border: 0px 0px 15px 0px solid;
     box-shadow:  5px 6px 6px #0000004d;
 }
-main > article > section > aside > h3{
+main h3{
     background-color: #1B5C3C;
     color: white;
-    font-weight: bold;
-    font-size: 1em;
     padding: 15px;
+    margin: -10px -10px 0px -10px;
     padding-right: 0px;
-    width: auto;
-    margin:auto;
     border-radius: 20px 20px 0px 0px;
 }
-main > article > section > aside > div > ul{
-    border-right-width:0px;
-    list-style-type: none;
-    padding-inline-start: 0px;
+main ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position:inside;
+    columns: 2;
 }
-li{
-    display: inline-block;
-}
-li::before{
-    content: "✔";
-    padding: 10px;
-}
-
-
 footer{
     background-color: #1B5C3C;
     color: white;
     text-align: center;
     padding:10px 0px 10px 0px;
 }
-footer > a{
+footer a{
     color: white;
-    font-style: italic;
     font-weight: bold;
+    cursor: pointer;
     text-decoration: none;
-    cursor: pointer;  
 }
-footer > a:hover{
+footer a:hover{ 
     text-decoration: underline;
 }
