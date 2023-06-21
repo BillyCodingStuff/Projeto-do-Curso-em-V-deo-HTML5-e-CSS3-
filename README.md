@@ -7,7 +7,7 @@ Nesse repositório tem os códigos que fiz a partir do meu estudo de HTML5 e CSS
 
 Exercícios
 001
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/index.html"></a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/index.html">1</a>
 002
 003
 004
