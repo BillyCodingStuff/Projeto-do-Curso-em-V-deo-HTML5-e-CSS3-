@@ -8,9 +8,10 @@ Nesse repositório tem os códigos que fiz a partir do meu estudo de HTML5 e CSS
 Exercícios<br>
 
 001
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/index.html">1</a> <br>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/index.html">1</a>
+
 002
--<a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex002/index.html">1</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex002/index.html">1</a>
 003
 - <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex003/index.html">1</a>
 004
