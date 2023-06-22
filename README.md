@@ -1,5 +1,3 @@
-#CEV-Project
-
 Opa, IV aqui!
 
 Comecei a estudar programação e me encantei pela área. Ainda sou meio leiga no momento que escrevo esse texto, mas vou aprender cada comando e escrever cada linha com todo amor e esforço.
@@ -53,17 +51,17 @@ Exercícios<br>
 - <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex0015/pagina2.html">2</a>
 
 016
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/cores.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/cores2.html">2</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/cores3.html">3</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-2/ex016/cores.html">1</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-2/ex017/cores2.html">2</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-2/ex018/cores3.html">3</a>
 
 017
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/fontes01.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/fontes02.html">2</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-2/ex019/fontes01.html">1</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-2/ex020/fontes02.html">2</a>
 
 018
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/fontes01.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/fontes02.html">1</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-2/ex021/fontes01.html">1</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-3/ex022/fontes02.html">1</a>
 
 019
 - <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/index.html">1</a>
