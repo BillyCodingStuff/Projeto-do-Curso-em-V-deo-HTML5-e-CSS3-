@@ -78,20 +78,7 @@ Exercícios<br>
 
 022
 - <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo001.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo002.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo003.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo004.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo005.html">1</a>
-
-Desafios
-
-001
-002
-003
-004
-005
-006
-007
-008
-009
-010
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo002.html">2</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo003.html">3</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo004.html">4</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo005.html">5</a>
