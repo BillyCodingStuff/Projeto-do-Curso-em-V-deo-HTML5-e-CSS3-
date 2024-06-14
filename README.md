@@ -1,7 +1,5 @@
 Opa, IV aqui!
 
-Comecei a estudar programação e me encantei pela área. Ainda sou meio leiga no momento que escrevo esse texto, mas vou aprender cada comando e escrever cada linha com todo amor e esforço.
-
 Nesse repositório tem os códigos que fiz a partir do meu estudo de HTML5 e CSS através do Curso em Vídeo.
 
 Exercícios<br>
@@ -78,20 +76,7 @@ Exercícios<br>
 
 022
 - <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo001.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo002.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo003.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo004.html">1</a>
-- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo005.html">1</a>
-
-Desafios
-
-001
-002
-003
-004
-005
-006
-007
-008
-009
-010
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo002.html">2</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo003.html">3</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo004.html">4</a>
+- <a href= "https://ivcodingstuff.github.io/Projeto-do-Curso-em-V-deo-HTML5-e-CSS3-/estudos/html-css/exercicios/modulo-1/ex001/html/fundo005.html">5</a>
